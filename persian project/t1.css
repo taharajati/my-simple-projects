@@ -1,0 +1,29 @@
+div {
+    
+    padding: 120px;
+    margin: 120px;
+}
+.GSB{
+    font-size: 18px;
+    font-weight: bold;
+    background: #6699ff;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   
+    transition-duration:0.3s;
+  
+    transition-property: box-shadow,transform;
+}
+.GSB:hover, .GSB:focus, .GSB:active{
+    box-shadow: 0 0 20px rgba(2, 2, 2, 0.5);
+    
+    transform: scale(1.1);
+    
+}
